@@ -1,8 +1,9 @@
-import 'package:advanced_flutter/presentation/forgot_bassword/forgot_bassword_view.dart';
+import 'package:advanced_flutter/presentation/forgot_password/forgot_password_view.dart';
 import 'package:advanced_flutter/presentation/login/login_view.dart';
 import 'package:advanced_flutter/presentation/main/main_view.dart';
 import 'package:advanced_flutter/presentation/onboarding/onboarding_view.dart';
 import 'package:advanced_flutter/presentation/register/register_view.dart';
+import 'package:advanced_flutter/presentation/resources/strings_manager.dart';
 import 'package:advanced_flutter/presentation/splash/splash_view.dart';
 import 'package:advanced_flutter/presentation/store_details/store_details_vew.dart';
 import 'package:flutter/material.dart';
@@ -43,9 +44,9 @@ class RouteGenerator {
     return MaterialPageRoute(
       builder: (_) => Scaffold(
         appBar: AppBar(
-          title: const Text("no route found"),
+          title: const Text(AppStrings.noRouteFound),
         ),
-        body: const Center(child: Text("no Route Found")),
+        body: const Center(child: Text(AppStrings.noRouteFound)),
       ),
     );
   }
