@@ -9,7 +9,7 @@ class AppStrings {
   static const onBoardingSubTitle2 = "on_boarding_desc2";
   static const onBoardingSubTitle3 = "on_boarding_desc3";
   static const onBoardingSubTitle4 = "on_boarding_desc4";
-  static const skip = "skip";
+  static const skip = "Skip";
   static const username = "username_hint";
   static const password = "password_hint";
   static const usernameError = "username_error";
